@@ -23,9 +23,11 @@ task compile(type: JavaCompile) {
 
 sourceSets {
   main {
-    java { srcDir 'src/main/java' }
+    java { srcDir 'Computation/src/main/java' }
   }
   test {
-    java { srcDir 'src/test/java'}
+    java { srcDir 'Computation/src/test/java'}
   }
 }
+
+mainClassName='application.CompApp'
